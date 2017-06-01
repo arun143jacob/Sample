@@ -6,6 +6,6 @@ def product(a):
 
     
 def factorial(n):
-    f = product(list(range(1, n+1)))
+    f = product(range(1, n+1))
     
 factorial(6)
